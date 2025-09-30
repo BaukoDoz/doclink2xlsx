@@ -89,4 +89,5 @@ Die erzeugte Excel-Datei enthaelt ein Arbeitsblatt Links mit drei Spalten:
 - Falls keine Titel geladen werden, prüfe Internetverbindung oder höherer Timeout-Wert.
 - Bei sehr grossen Dokumenten kann das Skript lange laufen, weil jede URL einzeln aufgerufen wird.
 - Wenn PowerShell das Aktivieren der virtuellen Umgebung blockiert, siehe das oben genannte Set-ExecutionPolicy.
-- Sollten die Umgebung verlassen wollen, nutzen deactivate.
+
+- Sollten man die Umgebung verlassen wollen, nutze deactivate.
