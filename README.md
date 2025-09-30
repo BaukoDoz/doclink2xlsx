@@ -38,22 +38,24 @@ Wenn das Projekt als ZIP vorliegt, entpacke den Ordner und öffnen ihn im Termin
 ## Virtuelle Umgebung einrichten
 1. **Virtuelle Umgebung erstellen** (legt einen isolierten Python-Ordner im Projekt an):
 
-    python -m venv .venv
+   ```bash
+   python -m venv .venv
 
-2. **Aktivieren**:
+3. **Aktivieren**:
 
-    .\\.venv\Scripts\Activate.ps1
+       .\.venv\Scripts\Activate.ps1
 
    Das Terminal zeigt nun links ein (.venv) an. Bei Bedarf fuer die klassische Eingabeaufforderung (CMD):
 
-    .\\.venv\Scripts\activate.bat
+        .\.venv\Scripts\activate.bat
 
    Unter macOS/Linux lautet der Befehl:
 
-    source .venv/bin/activate
+        source .venv/bin/activate
 
-3. **Abhaengigkeiten installieren**:
+5. **Abhaengigkeiten installieren**:
 
+    ```bash
     python -m pip install --upgrade pip
     pip install -r requirements.txt
 
@@ -91,3 +93,4 @@ Die erzeugte Excel-Datei enthaelt ein Arbeitsblatt Links mit drei Spalten:
 - Wenn PowerShell das Aktivieren der virtuellen Umgebung blockiert, siehe das oben genannte Set-ExecutionPolicy.
 
 - Sollten man die Umgebung verlassen wollen, nutze deactivate.
+
